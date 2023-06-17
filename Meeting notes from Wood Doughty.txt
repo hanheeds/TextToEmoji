@@ -1,0 +1,40 @@
+1. You don't have to create a loss function for every single emotion. 
+
+2. In youre desired goals, 
+
+essentrial goals vs desiredf goals
+
+what things to try diff sizes, regulirzation. 
+
+simple baseline: logistic regresion poorlyll but linear but baseline. 
+
+what are things you want to try 70%
+
+how learn tghis. not want o take alll cvombinations. cvollection o f emojis. second model start by learning correlastuon od text to emoji
+
+be specific about what youre strategy from emotions to emojis. that's t
+
+1. deterministic mappping. these emojis equals to this emoji
+
+2. you don't need deep learnign model to do that. that's fine for totally fine. I don't a deterministic model. if you wanted to, because you have 211,thousand rows. HO wamny possible combinations of emotions are appearing in your data, theoretically, 2^27 possible combinations. there' coudl be hundreds of thousanlds, don't want to manually decide on corrct emoji on all of those.
+
+Potentailly deep learnign approacho extension:
+try to find new dataset that is going to way of going from text to emojis, one fucntion from text to emojis
+
+second function is text to emojis. based on tohat model, datsets and text and correspodning emojis to learn a mapign 
+
+1. text to emotion then emotion to emoji
+
+2. thiat would be a more interesting direction than 
+
+you would be able to evaluate accuracy of the model that prodouces the emojis from the text that has those emojis. I fyou have a document htat has text and manually labeled emojis. 
+
+text and emojis that have it and try to predict that overall.
+
+Does this emotion correspond with this emoji. not have that as a label by itsel or look throguh, anything in your dataset has emojis, or some of them do or have some connections to underlying emoji. in which case you could have that comparison work as well. 
+
+User interface. 
+
+focus on model specific things -> for example, getting that to work. model distillation, existing model and dtryign to make it smalle rand faster, and easier to make it in user interface. 
+
+also project mentor also point question for these quetsions.
